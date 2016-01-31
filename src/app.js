@@ -8,5 +8,8 @@
 		dataStatus.error(function(){
 			console.log('AJAX error');
 		});
+		$scope.profile=function(record){
+			$scope.record=record;
+		};
 	}]);
 })();
