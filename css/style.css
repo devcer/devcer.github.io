@@ -23,7 +23,10 @@ h3{
 .content .description{
 	padding-bottom: 20px;
 }
-.experience h3{
+.content .experience{
+	padding-bottom: 20px;
+}
+.experience h3,.conference h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: left;	
 }
