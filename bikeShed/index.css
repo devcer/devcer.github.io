@@ -1,0 +1,125 @@
+/* OUR OWN CSS FOR BIKESHADE. 
+   FEW ARE TAKEN FROM styles.css and replaced the class name .android by .index
+   you can use styles.css also. but later we will move those to index.css as styles.css has lots of 
+   unnecessary stuff.
+
+ */
+
+.index-image-shade {
+	opacity: 0.6;
+}
+
+.index-decoration-none {
+	text-decoration: none;
+}
+
+.index-image-shade:hover {
+	opacity: 1;
+}
+
+.index-screen-section {
+  position: relative;
+  padding-top: 80px;
+}
+
+.index-pad-left-right {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.index-screen-section-bottom {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.index-circular-button {
+  background: #3F51B5 !important;
+}
+
+.index-screen-section-mid {
+  position: relative;
+  padding-top: 40px;
+}
+
+.index-screen-section-bottom-mid {
+  position: relative;
+  padding-bottom: 40px;
+}
+.index-screen-section-low {
+  position: relative;
+  padding-top: 20px;
+}
+
+.index-screen-section-bottom-low {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.index-customized-section {
+  text-align: center;
+}
+
+.index-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: white;
+  font-size: 30px;
+}
+
+.blueText{
+	color: #2980b9;
+}
+.loginHeading{
+	text-align: center;
+}
+.btn{
+	-webkit-border-radius: 60;
+	-moz-border-radius: 60;
+	border-radius: 60px;
+  	font-size: 16px;
+  	font-family: Arial;
+  	text-decoration: none;
+}
+.btnWhite {
+	color: #000000;
+	background: #ffffff;
+  	padding: 20px 60px 20px 60px;
+  	border: solid #000000 1px;
+}
+
+.btnBlue {
+  
+/*  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+*/
+	background: #3498db;
+  	color: #ffffff;
+  	padding: 20px 20px 20px 20px;
+  	border: solid #1f628d 0px;
+}
+
+.btnWhite:hover {
+	color: #FFFFFF;
+	border: solid #2980b9 1px;
+  	background: #2980b9;
+  	background-image: -webkit-linear-gradient(top, #2980b9, #2980B9);
+  	background-image: -moz-linear-gradient(top, #2980b9, #2980B9);
+  	background-image: -ms-linear-gradient(top, #2980b9, #2980B9);
+  	background-image: -o-linear-gradient(top, #2980b9, #2980B9);
+  	background-image: linear-gradient(to bottom, #2980b9, #2980B9);
+  	text-decoration: none;
+}
+
+.btnBlue:hover {
+  	background: #3cb0fd;
+  	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  	text-decoration: none;
+}
