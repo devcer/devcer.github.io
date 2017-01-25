@@ -10,7 +10,7 @@ h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;	
 }
-.content .description p{
+.content .description p,.content .mozillian-story p{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 }
