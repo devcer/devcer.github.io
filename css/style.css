@@ -30,6 +30,16 @@ h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: left;	
 }
-.speaker-request{
+.speaker-request,.social-life{
 	text-align: center;
+}
+.social-icon{
+	display: inline;
+	margin: 20px;
+}
+.topic-section{
+	margin: 50px 0px;
+}
+.skillset img{
+	margin: 10px;
 }
