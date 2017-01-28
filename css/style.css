@@ -14,17 +14,23 @@ h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 }
-.content{
-	padding: 30px 60px 60px 30px; 
-}
+
 .content .header{
-	padding-bottom: 20px;
+	height: 500px;
+	color: white;
+	background-color: #F29B16
 }
 .content .description{
-	padding-bottom: 20px;
+	height: 500px;
+	color: white;
+	background-color: #6F7782;
+}
+.content .mozillian-story{
+	background-color: #EBEFF2;
+	color: black;
 }
 .content .experience{
-	padding-bottom: 20px;
+	height: 500px;
 }
 .experience h3,.conference h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -37,9 +43,18 @@ h3{
 	display: inline;
 	margin: 20px;
 }
-.topic-section{
-	margin: 50px 0px;
+.content .topic-section{
+	height: 500px;
+	width: 100%;
+	display: inline-block;
+	float: left;
 }
 .skillset img{
 	margin: 10px;
+}
+.nav-bar{
+	height: 4em;
+}
+body{
+	margin: 0px;
 }
