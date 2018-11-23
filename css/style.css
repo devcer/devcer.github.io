@@ -4,3 +4,7 @@
 span a{
 	color: #337ab7;
 }
+.profile-image {
+  height: 150px;
+  border-radius: 100%;
+}
