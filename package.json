@@ -1,31 +1,46 @@
 {
-  "name": "personal-site",
-  "title": "Santosh Viswanatham",
-  "version": "3.3.7+1",
-  "author": "Santosh Viswanatham",
-  "scripts": {
-    "start": "http-server ."
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "eslint": "^4.10.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
-    "http-server": "^0.12.0",
-    "jquery": "~3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/viswanathamsantosh/viswanathamsantosh.github.io"
-  },
-  "dependencies": {
-    "natives": "^1.1.6"
-  }
+    "title": "Santosh Viswanatham",
+    "name": "santosh-website",
+    "version": "2.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Personal website of Santosh Viswanatham",
+    "keywords": [
+        "Santosh",
+        "Santosh Viswanatham",
+        "Viswanatham",
+        "Frontend Developer",
+        "Tech Speaker",
+        "Mozillian",
+        "Gaian Solutions",
+        "Infosys Ltd"
+    ],
+    "homepage": "https://devcer.github.io",
+    "license": "MIT",
+    "author": "Santosh Viswanatham",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devcer/devcer.github.io.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
 }

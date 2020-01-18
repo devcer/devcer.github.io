@@ -2,26 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta
       name="description"
-      content="Personal website of Santosh Viswanatham."
+      content="Santosh is an open web philanthropist, Tech Speaker at Mozilla and a Senior Development Engineer at Pramati. He eats Vanilla JS for Breakfast and tweets at @isantoshv. Santosh is a Mozilla Rep and a Participation leader at Mozilla and he loves working with a diverse group of people. He has given talks on WebVR, Cross-Platform extensions, Devtools, Firefox OS in the past. For his contributions to Mozilla, His name is listed in about:credits of every shipped Firefox Browser. When he is not glued to his computer you will find him reading books, watching movies, trying not to cook badly."
     />
     <meta name="author" content="Santosh Viswanatham" />
-    <meta
-      name="keywords"
-      content="santosh, santosh viswanatham, mozillian, mozilla tech speaker"
-    />
-    <title>iSantoshV</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- Custom Fonts -->
+
+    <title>Santosh Viswanatham</title>
+
+    <!-- Custom fonts for this theme -->
     <link
-      href="vendor/font-awesome/css/font-awesome.min.css"
+      href="vendor/fontawesome-free/css/all.min.css"
       rel="stylesheet"
       type="text/css"
     />
@@ -35,127 +30,154 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet" />
   </head>
 
-  <body id="page-top" class="index">
+  <body id="page-top">
     <!-- Navigation -->
     <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
       id="mainNav"
-      class="navbar navbar-default navbar-fixed-top navbar-custom"
     >
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            <span class="sr-only">Toggle navigation</span> Menu
-            <i class="fa fa-bars"></i>
-          </button>
-          <a class="navbar-brand" href="#page-top">Santosh Viswanatham</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="hidden">
-              <a href="#page-top"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Santosh Viswanatham</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#portfolio"
+                >Skills</a
+              >
             </li>
-            <li class="page-scroll">
-              <a href="#portfolio">Skills</a>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#about"
+                >About</a
+              >
             </li>
-            <li class="page-scroll">
-              <a href="#about">About</a>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#videos"
+                >Videos</a
+              >
             </li>
-            <li class="page-scroll">
-              <a href="#videos">Videos</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#contact">Contact</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#footer">Social</a>
-            </li>
-            <li class="page-scroll">
-              <a href="https://isantoshv.wordpress.com/" target="_blank" rel="noopener"
-                >My Blog</a
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#contact"
+                >Contact</a
               >
             </li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container-fluid -->
     </nav>
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <img
-              class="img-responsive profile-image"
-              src="img/santosh.jpg"
-              alt="santosh viswanatham"
-            />
-            <div class="intro-text">
-              <span class="name">Santosh Viswanatham</span>
-              <span class="skills"
-                >Javascript | Accessibility | Tech Speaker | Mozillian | Open
-                Web | Dreamer</span
-              >
-            </div>
+
+    <!-- Masthead -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image -->
+        <img
+          class="masthead-avatar mb-5 profile-image"
+          src="img/santosh.jpg"
+          alt="santosh viswanatham"
+        />
+
+        <!-- Masthead Heading -->
+        <h1 class="masthead-heading text-uppercase mb-0">
+          Santosh Viswanatham
+        </h1>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
+          <div class="divider-custom-line"></div>
         </div>
+
+        <!-- Masthead Subheading -->
+        <p class="masthead-subheading font-weight-light mb-0">
+          Javascript | Accessibility | Tech Speaker | Mozillian | Open Web |
+          Dreamer
+        </p>
       </div>
     </header>
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+
+    <!-- Portfolio Section -->
+    <section class="page-section portfolio" id="portfolio">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>Things I know</h2>
-            <hr class="star-primary" />
+        <!-- Portfolio Section Heading -->
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Things I worked on
+        </h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
+          <div class="divider-custom-line"></div>
         </div>
+
+        <!-- Portfolio Grid Items -->
         <div class="row">
           <div class="col-sm-12 text-center skill-set">
-            <img src="img/html.png" width="100px" alt="HTML"/>
-            <img src="img/css3.png" width="100px" alt="CSS3"/>
-            <img src="img/js.jpg" width="100px" alt="javascript"/>
-            <img src="img/java.png" width="60px" alt="java"/>
-            <img src="img/bootstrap.png" width="100px" alt="bootstrap"/>
-            <img src="img/photoshop.png" width="100px" alt="photoshop"/>
-            <img src="img/mysql.png" width="147px" alt="mysql"/>
-            <img src="img/gulp.png" width="45px" alt="gulp"/>
-            <img src="img/nodejs.png" width="100px" alt="grunt"/>
-            <img src="img/angularjs.png" width="200px" alt="angularjs"/>
-            <img src="img/canjs.png" width="200px" alt="canjs"/>
-            <img src="img/jquery.png" width="200px" alt="jquery"/>
-            <img src="img/git.png" width="200px" alt="git"/>
-            <img src="img/mongodb.jpg" width="200px" alt="mongodb"/>
-            <img src="img/sass.png" width="115px" alt="sass"/>
-            <img src="img/aframe.png" width="100px" alt="aframe, webvr"/>
-            <img src="img/addon.jpg" width="80px" alt="addon"/>
-            <img src="img/leaflet.svg" width="290px" alt="leaflet"/>
-            <img src="img/ionic.svg" width="220px" alt="ionic"/>
-            <img src="img/visgl.png" width="120px" alt="visgl"/>
+            <img src="img/html.png" width="100px" alt="HTML" />
+            <img src="img/css3.png" width="100px" alt="CSS3" />
+            <img src="img/js.jpg" width="100px" alt="javascript" />
+            <img src="img/java.png" width="60px" alt="java" />
+            <img src="img/bootstrap.png" width="100px" alt="bootstrap" />
+            <img src="img/photoshop.png" width="100px" alt="photoshop" />
+            <img src="img/mysql.png" width="147px" alt="mysql" />
+            <img src="img/gulp.png" width="45px" alt="gulp" />
+            <img src="img/nodejs.png" width="100px" alt="grunt" />
+            <img src="img/angularjs.png" width="200px" alt="angularjs" />
+            <img src="img/canjs.png" width="200px" alt="canjs" />
+            <img src="img/jquery.png" width="200px" alt="jquery" />
+            <img src="img/git.png" width="200px" alt="git" />
+            <img src="img/mongodb.jpg" width="200px" alt="mongodb" />
+            <img src="img/sass.png" width="115px" alt="sass" />
+            <img src="img/aframe.png" width="100px" alt="aframe, webvr" />
+            <img src="img/addon.jpg" width="80px" alt="addon" />
+            <img src="img/leaflet.svg" width="290px" alt="leaflet" />
+            <img src="img/ionic.svg" width="220px" alt="ionic" />
+            <img src="img/visgl.png" width="120px" alt="visgl" />
           </div>
         </div>
+        <!-- /.row -->
         <div class="row">
           <div class="col-sm-12 text-center">
             <h3>My Presentations</h3>
             <hr class="star-primary" />
             <p>
-              <a href="http://slides.com/isantoshv/" target="_blank" rel="noopener"
+              <a
+                href="http://slides.com/isantoshv/"
+                target="_blank"
+                rel="noopener"
                 >http://slides.com/isantoshv/</a
               >
             </p>
@@ -163,14 +185,25 @@
         </div>
       </div>
     </section>
+
     <!-- About Section -->
-    <section class="success" id="about">
+    <section class="page-section bg-primary text-white mb-0" id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>About Me</h2>
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">
+          About Me
+        </h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
+          <div class="divider-custom-line"></div>
         </div>
+
+        <!-- About Section Content -->
         <div class="row">
           <div class="col-lg-12">
             <p>
@@ -197,7 +230,10 @@
               Devtools, CSS Grid, Javascript Performance, etc. As an active
               contributor, my name is also listed in
               <span
-                ><a href="https://www.mozilla.org/credits/" target="_blank" rel="noopener"
+                ><a
+                  href="https://www.mozilla.org/credits/"
+                  target="_blank"
+                  rel="noopener"
                   >about:credits</a
                 ></span
               >
@@ -205,6 +241,14 @@
             </p>
           </div>
         </div>
+
+        <!-- About Section Button -->
+        <!-- <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+          <i class="fas fa-download mr-2"></i>
+          Free Download!
+        </a>
+      </div> -->
       </div>
     </section>
     <!-- Videos Section -->
@@ -213,7 +257,14 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2>My Talks</h2>
-            <hr class="star-primary" />
+            <!-- Icon Divider -->
+            <div class="divider-custom divider-light">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="divider-custom-line"></div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -296,17 +347,28 @@
       </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="page-section" id="contact">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>Contact Me</h2>
-            <hr class="star-primary" />
-            <h3>Want to have me as a Speaker?</h3>
+        <!-- Contact Section Heading -->
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Contact Me
+        </h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
+          <div class="divider-custom-line"></div>
         </div>
+
+        <h3>Want to have me as a Speaker?</h3>
+        <!-- Contact Section Form -->
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-8 mx-auto">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSfFVouyCzWP1EVmbg9HOCoXDB7kf5KXDAy5YdFynWCb3FN6dA/viewform?embedded=true"
               width="100%"
@@ -321,119 +383,99 @@
         </div>
       </div>
     </section>
+
     <!-- Footer -->
-    <footer id="footer" class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-6">
-              <h3>My Home</h3>
-              <p>Hyderabad, <br />India,500089.</p>
-            </div>
-            <div class="footer-col col-md-6">
-              <h3>Connect with me</h3>
-              <ul class="list-inline">
-                <li>
-                  <a
-                    href="https://twitter.com/isantoshv"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Twitter"
-                    ><i class="fa fa-fw fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/isantoshv/"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="LinkedIn"
-                    ><i class="fa fa-fw fa-linkedin"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/isantoshv"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Facebook"
-                    ><i class="fa fa-fw fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://plus.google.com/+SantoshViswanatham"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Google Plus"
-                    ><i class="fa fa-fw fa-google-plus"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/viswanathamsantosh/"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Github"
-                    ><i class="fa fa-fw fa-github"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://mozillians.org/en-US/u/viswanathamsantosh/"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Mozillians"
-                    ><i class="fa fa-fw fa-firefox"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://isantoshv.wordpress.com/"
-                    target="_blank"
-                    class="btn-social btn-outline"
-                    rel="noopener"
-                    aria-label="Wordpress"
-                    ><i class="fa fa-fw fa-wordpress"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Location -->
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">My Home</h4>
+            <p class="lead mb-0">Hyderabad, <br />India, 500089</p>
           </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Santosh Viswanatham 2017
-            </div>
+
+          <!-- Footer Social Icons -->
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Connect with me</h4>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://www.facebook.com/isantoshv"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-fw fa-facebook-f"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://twitter.com/isantoshv"
+              target="_blank"
+              rel="noopener"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-fw fa-twitter"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://www.linkedin.com/in/isantoshv/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-fw fa-linkedin-in"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/viswanathamsantosh/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Github"
+            >
+              <i class="fab fa-fw fa-github"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://mozillians.org/en-US/u/viswanathamsantosh/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Mozillians"
+            >
+              <i class="fab fa-fw fa-firefox"></i>
+            </a>
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Your Website 2019</small>
+      </div>
+    </section>
+
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-      <a class="btn btn-primary" href="#page-top">
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+      >
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-    <!-- jQuery -->
+
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-    <!-- Theme JavaScript -->
+
+    <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
   </body>
 </html>
