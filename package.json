@@ -3,7 +3,8 @@
     "name": "santosh-website",
     "version": "2.0.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "build": "node_modules/.bin/gulp build"
     },
     "description": "Personal website of Santosh Viswanatham",
     "keywords": [
