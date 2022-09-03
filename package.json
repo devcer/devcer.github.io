@@ -15,7 +15,8 @@
         "Tech Speaker",
         "Mozillian",
         "Gaian Solutions",
-        "Infosys Ltd"
+        "Infosys Ltd",
+        "Marvin"
     ],
     "homepage": "https://devcer.github.io",
     "license": "MIT",
@@ -33,7 +34,7 @@
         "magnific-popup": "^1.1.0"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.14",
+        "browser-sync": "^2.27.10",
         "del": "5.1.0",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "7.0.0",
