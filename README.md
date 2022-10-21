@@ -1,4 +1,4 @@
-# viswanathamsantosh.github.io
+# devcer.github.io
 
 Personal site of Santosh Viswanatham
 
